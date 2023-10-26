@@ -11,18 +11,6 @@ Get-Help -Name Get-Help
 # To see the examples, type:
 get-Help -Name Get-Help -examples
 
-# For more information, type:
+# Special mention of the window method, perfecto to find text better.
 
-get-Help -Name Get-Help -detailed
-
-# For technical information, type:
-
-get-Help -Name Get-Help -full
-
-# For online help, type:
-
-get-Help -Name Get-Help -online
-
-# Show only help about one paramenter
-
-Get-Help -Name Get-Help -Parameter Name
+get-help -Name Get-Command -ShowWindow

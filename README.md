@@ -110,6 +110,11 @@ The following parameters each reside in different parameter sets:
 • Parameter
 • ShowWindow
 
+# The Get-Command
+
+Get-Command is designed to help you locate commands. Running Get-Command without any
+parameters returns a list of all the commands on your system.
+
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
 Here's why:
