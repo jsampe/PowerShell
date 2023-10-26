@@ -85,6 +85,10 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
+## What is PowerShell?
+PowerShell, at least as of version 5.1, is an easy to use command-line shell and scripting environment
+for automating administrative tasks of Windows based systems.
+
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
 Here's why:
