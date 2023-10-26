@@ -1,3 +1,3 @@
 # Show the use of ConverTo Html, self explanatory.
 
-Get-Command | ConvertTo-Html | Out-File commands.Html
+$PSVersionTable | ConvertTo-Html | Out-File pw_ConvertTo-Html_Output.Html
