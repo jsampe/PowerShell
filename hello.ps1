@@ -1,5 +1,7 @@
-function hello-user {
-    Write-output "Hello people"
+# As mandatory, to start a new project always say Hello World.
+
+function get-world {
+    Write-output "Hello World"
 }
 
-hello-user
+get-world
