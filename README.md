@@ -115,6 +115,13 @@ The following parameters each reside in different parameter sets:
 Get-Command is designed to help you locate commands. Running Get-Command without any
 parameters returns a list of all the commands on your system.
 
+## Get-Member
+Get-Member helps you discover what objects, properties, and methods are available for commands.
+Any command that produces object based output can be piped to Get-Member. A property is a
+characteristic about an item. Your drivers license has a property called eye color and the most
+common values for that property are blue and brown. A method is an action that can be taken
+on an item.
+
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
 Here's why:
