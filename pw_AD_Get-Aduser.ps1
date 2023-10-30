@@ -1,0 +1,1 @@
+Get-ADUser -Identity 43765049 -Properties CannotChangePassword, Enabled, LastBadPasswordAttempt, LastLogonDate, LogonCount, MemberOf, Modified, PasswordExpired, PasswordLastSet, PasswordNeverExpires, PasswordLastSet, whenChanged, whenCreated 
