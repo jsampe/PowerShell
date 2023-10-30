@@ -14,4 +14,3 @@ some expensive query over and over again.
 having to query Active Directory more than one time. #>
 
 $Me | Select-Object -Property Name, LastLogonDate, LastBadPasswordAttempt
-
