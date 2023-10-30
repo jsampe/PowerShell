@@ -9,16 +9,16 @@ Get-Command -Module ActiveDirectory
 
     Read-Host -Prompt "Press any key to continue..."
 
-get-aduser -identity 43765049 -Properties *
+get-aduser -identity Miguel -Properties *
 
     Read-Host -Prompt "Press any key to continue..."
 
-Get-ADUser -Identity 43765049 -Properties CannotChangePassword, Enabled, LastBadPasswordAttempt, LastLogonDate, LogonCount, MemberOf, Modified, PasswordExpired, PasswordLastSet, PasswordNeverExpires, PasswordLastSet, whenChanged, whenCreated
+Get-ADUser -Identity Miguel -Properties CannotChangePassword, Enabled, LastBadPasswordAttempt, LastLogonDate, LogonCount, MemberOf, Modified, PasswordExpired, PasswordLastSet, PasswordNeverExpires, PasswordLastSet, whenChanged, whenCreated
 
     Read-Host -Prompt "Press any key to continue..."
 
-Get-ADUser -Identity 43765049 | Get-Member
+Get-ADUser -Identity Miguel | Get-Member
 
     Read-Host -Prompt "Press any key to continue..."
 
-    Get-ADUser -Identity mike -Properties * | Get-Member
+    Get-ADUser -Identity Miguel -Properties * | Get-Member
