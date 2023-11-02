@@ -13,6 +13,8 @@ function Test-MECmdletBinding {
     Write-Output $ComputerName
 }
 
+# There are a couple of different ways to see the common parameters. One is by viewing the syntax using Get-Command.
+
 Get-Command -Name Test-MECmdletBinding -Syntax
 
 (Get-Command -Name Test-MECmdletBinding).Parameters.Keys

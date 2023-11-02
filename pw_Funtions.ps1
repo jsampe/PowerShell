@@ -24,3 +24,10 @@ Get-ChildItem -Path Function:\Get-*Version
 the Function PSDrive or close and re-open PowerShell. #>
 
 Get-ChildItem -Path Function:\Get-*Version | Remove-Item
+
+<# If the functions were loaded as part of a module, the module can simply be unloaded to remove
+them. 
+
+Remove-Module -Name <ModuleName>
+
+#>
