@@ -6,11 +6,11 @@ If you’re not following the best practices and only have a PSM1 file then your
 the Export-ModuleMember cmdlet.#>
 
 
-function Get-MrPSVersion {
+function Get-PSVersionPrivate {
     $PSVersionTable
 }
-function Get-MrComputerName {
+function Get-ComputerName {
     $env:COMPUTERNAME
 }
 
-Export-ModuleMember -Function Get-MrPSVersion
+Export-ModuleMember -Function Get-PSVersionPrivate
